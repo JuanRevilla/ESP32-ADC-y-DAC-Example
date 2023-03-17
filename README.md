@@ -1,7 +1,4 @@
-| Supported Targets | ESP32 | ESP32-C2 | ESP32-C3 | ESP32-S2 | ESP32-S3 |
-| ----------------- | ----- | -------- | -------- | -------- | -------- |
-
-# Hello World Example
+# Codigo de pruebas sobre el uso de freertos
 
 Starts a FreeRTOS task to print "Hello World".
 

@@ -2,7 +2,11 @@
   "C_Cpp.intelliSenseEngine": "Tag Parser",
   "files.associations": {
     "esp_log.h": "c",
-    "queue.h": "c"
+    "queue.h": "c",
+    "pcnt.h": "c",
+    "gpio.h": "c",
+    "ledc.h": "c",
+    "pulse_cnt.h": "c"
   },
   "idf.adapterTargetName": "esp32"
 }

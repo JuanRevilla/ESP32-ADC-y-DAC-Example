@@ -1,8 +1,6 @@
-# Codigo de pruebas sobre el uso de freertos
+# Codigo de pruebas sobre el uso del adc y el DAC del ESP32
 
-Starts a FreeRTOS task to print "Hello World".
-
-(See the README.md file in the upper level 'examples' directory for more information about examples.)
+Este ejemplo crea una onda senosoidal y la saca por un pin del ESP32 y a su vez la intenta leer.
 
 ## How to use example
 
@@ -24,7 +22,6 @@ Below is short explanation of remaining files in the project folder.
 
 ```
 ├── CMakeLists.txt
-├── pytest_hello_world.py      Python script used for automated testing
 ├── main
 │   ├── CMakeLists.txt
 │   └── hello_world_main.c
@@ -40,11 +37,3 @@ For more information on structure and contents of ESP-IDF projects, please refer
     * Hardware connection is not correct: run `idf.py -p PORT monitor`, and reboot your board to see if there are any output logs.
     * The baud rate for downloading is too high: lower your baud rate in the `menuconfig` menu, and try again.
 
-## Technical support and feedback
-
-Please use the following feedback channels:
-
-* For technical queries, go to the [esp32.com](https://esp32.com/) forum
-* For a feature request or bug report, create a [GitHub issue](https://github.com/espressif/esp-idf/issues)
-
-We will get back to you as soon as possible.
